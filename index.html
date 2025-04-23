@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ouster激光雷达数据下载</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        h1 {
+            color: #0366d6;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .file-card {
+            border: 1px solid #e1e4e8;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 15px;
+            background-color: #f6f8fa;
+        }
+        .file-title {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .file-meta {
+            color: #586069;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        .download-btn {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 8px 15px;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .password-box {
+            margin-top: 10px;
+            display: none;
+        }
+        .show-password {
+            color: #0366d6;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            color: #586069;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ouster激光雷达数据下载</h1>
+    
+    <div class="file-card">
+        <div class="file-title">城市环境数据集 2023-05</div>
+        <div class="file-meta">大小: 4.2GB | 采集日期: 2023-05-15 | 格式: PCD</div>
+        <p>包含北京市海淀区街道扫描数据，使用OS1-64激光雷达采集</p>
+        <a href="https://pan.baidu.com/s/1abc123def456" class="download-btn" target="_blank">百度网盘下载</a>
+        <span class="show-password" onclick="togglePassword('pw1')">显示提取码</span>
+        <div id="pw1" class="password-box">提取码: xyz8</div>
+    </div>
+    
+    <div class="file-card">
+        <div class="file-title">校园环境数据集 2023-06</div>
+        <div class="file-meta">大小: 3.8GB | 采集日期: 2023-06-20 | 格式: PCD</div>
+        <p>清华大学校园扫描数据，包含建筑物和植被点云</p>
+        <a href="https://pan.baidu.com/s/2def456ghi789" class="download-btn" target="_blank">百度网盘下载</a>
+        <span class="show-password" onclick="togglePassword('pw2')">显示提取码</span>
+        <div id="pw2" class="password-box">提取码: 9abc</div>
+    </div>
+    
+    <footer>
+        <p>数据更新日期: 2023-07-15 | 如有问题请联系: ouster-data@example.com</p>
+    </footer>
 
+    <script>
+        function togglePassword(id) {
+            const box = document.getElementById(id);
+            if (box.style.display === 'block') {
+                box.style.display = 'none';
+                event.target.textContent = '显示提取码';
+            } else {
+                box.style.display = 'block';
+                event.target.textContent = '隐藏提取码';
+            }
+        }
+    </script>
+</body>
+</html>
