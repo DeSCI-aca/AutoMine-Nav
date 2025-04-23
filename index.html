@@ -1,93 +1,90 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AutoMine-Nav</title>
-    <style>
-        body {
-            font-family: 'Microsoft YaHei', sans-serif;
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-            line-height: 1.6;
-        }
-        h1 {
-            color: #0366d6;
-            text-align: center;
-            margin-bottom: 30px;
-        }
-        .file-card {
-            border: 1px solid #e1e4e8;
-            border-radius: 6px;
-            padding: 15px;
-            margin-bottom: 15px;
-            background-color: #f6f8fa;
-        }
-        .file-title {
-            font-size: 18px;
-            font-weight: bold;
-            margin-bottom: 10px;
-        }
-        .file-meta {
-            color: #586069;
-            margin-bottom: 10px;
-            font-size: 14px;
-        }
-        .download-btn {
-            display: inline-block;
-            background-color: #28a745;
-            color: white;
-            padding: 8px 15px;
-            text-decoration: none;
-            border-radius: 4px;
-            font-weight: bold;
-            margin-right: 10px;
-        }
-        .password-box {
-            margin-top: 10px;
-            display: none;
-        }
-        .show-password {
-            color: #0366d6;
-            cursor: pointer;
-            font-size: 14px;
-        }
-        footer {
-            margin-top: 40px;
-            text-align: center;
-            color: #586069;
-            font-size: 14px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>AutoMine-Nav Dataset 下载页面</title>
+  <style>
+    body {
+      font-family: "Helvetica Neue", sans-serif;
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    .dataset {
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      padding: 1rem 1.5rem;
+      background: #f9f9f9;
+    }
+    a.button {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #3498db;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+    }
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: gray;
+      text-align: center;
+    }
+    pre {
+      background: #f0f0f0;
+      padding: 1rem;
+      overflow: auto;
+      border-radius: 6px;
+    }
+  </style>
 </head>
 <body>
-    <h1>AutoMine-Nav Download</h1>
-    
-    <div class="file-card">
-        <div class="file-title">SUV-01 2022-09</div>
-        <div class="file-meta">Size: 22.9GB | Collect Date: 2022-09-08 | Type: Rosbag</div>
-        <p>SUV data with 1K frames</p>
-        <a href="https://pan.baidu.com/s/1abc123def456" class="download-btn" target="_blank">Baidu Link</a>
-        <span class="show-password" onclick="togglePassword('pw1')">Show Code</span>
-        <div id="pw1" class="password-box">Code: xyz8</div>
-    </div>
-    
-    <footer>
-        <p>Update Date: 2025-04-23 | Contact: yuchen.li@tum.de</p>
-    </footer>
 
-    <script>
-        function togglePassword(id) {
-            const box = document.getElementById(id);
-            if (box.style.display === 'block') {
-                box.style.display = 'none';
-                event.target.textContent = 'Show Code';
-            } else {
-                box.style.display = 'block';
-                event.target.textContent = 'Hide Code';
-            }
-        }
-    </script>
+  <h1>📦 AutoMine-Nav Dataset</h1>
+
+  <div class="dataset">
+    <h2>🔍 数据集简介</h2>
+    <p>
+      <strong>AutoMine-Nav</strong> 是一套适用于移动机器人导航和感知任务的多模态数据集。
+      数据采集于真实城市街道环境，包含：
+    </p>
+    <ul>
+      <li>Velodyne HDL-64 激光雷达</li>
+      <li>GPS 定位信息</li>
+      <li>IMU 惯导测量</li>
+    </ul>
+    <p>可广泛用于 SLAM、路径规划、感知算法等研究。</p>
+
+    <h2>📥 下载链接</h2>
+    <p>数据托管于百度网盘：</p>
+    <p>
+      👉 <a class="button" href="https://pan.baidu.com/s/1abcDXYZ" target="_blank">立即下载</a>  
+      （提取码：<strong>3q2w</strong>）
+    </p>
+
+    <h2>📖 引用方式</h2>
+    <p>如果您在科研或工程项目中使用了 AutoMine-Nav 数据集，请引用以下论文：</p>
+
+    <pre>
+@article{Li2024AutoMine,
+  title={AutoMine: A Multimodal Dataset for Robot Navigation in Open-pit Mines},
+  author={Yuchen Li and Siyu Teng and Junhui Wang and Yunfeng Ai and Bin Tian and 
+          Zhe Xuanyuan and Zhenshan Bing and Alois Knoll and Fei-Yue Wang and Long Chen},
+  journal={Journal of Field Robotics},
+  year={2024}
+}
+    </pre>
+
+  </div>
+
+  <footer>
+    页面由 <strong>AutoMine 团队</strong> 构建 ｜ 最后更新：2025-04-23
+  </footer>
+
 </body>
 </html>
