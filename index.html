@@ -96,20 +96,10 @@
     <p>It can be widely used for algorithms such as Odometry and SLAM.</p>
 
     <div class="note">
-      <h2>📌 Extrinsic Parameters Information</h2>
-      <p>The dataset provides detailed extrinsic parameters between all sensors:</p>
-      <ul>
-        <li><strong>LiDAR-to-Camera</strong>: Transformation matrices for both left and right cameras</li>
-        <li><strong>IMU-to-LiDAR</strong>: Precise calibration parameters</li>
-        <li><strong>GPS-to-IMU</strong>: Lever arm offset and orientation</li>
-      </ul>
-      <p>All extrinsic parameters are provided in the <code>calibration</code> folder of each sequence, including:</p>
-      <ul>
-        <li>JSON files with transformation matrices</li>
-        <li>Detailed documentation on coordinate systems</li>
-        <li>Visualization tools for verification</li>
-      </ul>
-      <p>The coordinate system follows ROS convention (right-handed, X-forward, Y-left, Z-up).</p>
+      <h2>📌 Extrinsic Parameters Download</h2>
+      <p>All sensor-to-sensor extrinsic calibration data (e.g., LiDAR-to-Camera, IMU-to-LiDAR, GPS-to-IMU) is provided as a downloadable JSON file.</p>
+      <p>📄 <a class="button" href="https://raw.githubusercontent.com/your-username/your-repo/main/docs/param.json" target="_blank">Download Calibration JSON</a></p>
+      <p>The file includes all transformation matrices and coordinate system documentation. Follow ROS coordinate convention: X-forward, Y-left, Z-up.</p>
     </div>
     
 
