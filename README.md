@@ -14,10 +14,12 @@ AutoMine-Nav is a comprehensive dataset collected from open-pit mining areas, de
 ## 📁 Data Structure
 
 ### Extrinsic Parameters
-All sensor-to-sensor transformations are provided in the `docs/calibration_matrices/` folder, including:
+All sensor-to-sensor transformations are provided in the `docs/date_vehicle_type/` folder, including param.json and ROS_Left_Right.txt:
+param.json
 - LiDAR-to-Camera (Left & Right)
 - IMU-to-LiDAR
 - GPS-to-IMU
+ROS_Left_Right.txt
 - Stereo camera baseline
 
 **Coordinate Convention**: ROS (Right-handed, X-forward, Y-left, Z-up)
