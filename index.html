@@ -41,6 +41,12 @@
       overflow: auto;
       border-radius: 6px;
     }
+    .note {
+      background: #fff8e1;
+      padding: 1rem;
+      border-left: 4px solid #ffc107;
+      margin: 1rem 0;
+    }
   </style>
 </head>
 <body>
@@ -61,6 +67,23 @@ The data was collected from multiple mining areas, including:
       <li>IMU</li>
     </ul>
     <p>It can be widely used for algorithms such as Odometry and SLAM.</p>
+
+    <div class="note">
+      <h2>📌 Extrinsic Parameters Information</h2>
+      <p>The dataset provides detailed extrinsic parameters (外参) between all sensors:</p>
+      <ul>
+        <li><strong>LiDAR-to-Camera</strong>: Transformation matrices for both left and right cameras</li>
+        <li><strong>IMU-to-LiDAR</strong>: Precise calibration parameters</li>
+        <li><strong>GPS-to-IMU</strong>: Lever arm offset and orientation</li>
+      </ul>
+      <p>All extrinsic parameters are provided in the <code>calibration</code> folder of each sequence, including:</p>
+      <ul>
+        <li>JSON files with transformation matrices</li>
+        <li>Detailed documentation on coordinate systems</li>
+        <li>Visualization tools for verification</li>
+      </ul>
+      <p>The coordinate system follows ROS convention (right-handed, X-forward, Y-left, Z-up).</p>
+    </div>
 
     <h2>📥 Download Link</h2>
     <p>You can download it from Baidu Cloud Servers</p>
