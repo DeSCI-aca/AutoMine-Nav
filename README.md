@@ -33,7 +33,7 @@ SUV_01 1K data can be download via:
 Extraction Code: `7tju`
 
 SUV_01 2K data can be download via:
-[Download Link]([https://pan.baidu.com/s/1vrKBsuKGj-v3_toB8TGDAw?pwd=7tju](https://pan.baidu.com/s/1rvg8PIkjIiYyySfe0dGbKw?pwd=sk2y))  
+[Download Link](https://pan.baidu.com/s/1rvg8PIkjIiYyySfe0dGbKw?pwd=sk2y)
 Extraction Code: `sk2y`
 
 We will upload all the data soon!
