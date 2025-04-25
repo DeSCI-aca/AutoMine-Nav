@@ -4,7 +4,7 @@ A multimodal dataset for autonomous driving and robot navigation in mining envir
 
 ## 📌 Dataset Overview
 
-AutoMine-Nav is a comprehensive dataset collected from open-pit mining areas, designed for autonomous vehicle localization and navigation tasks. The dataset includes synchronized data from multiple sensors:
+AutoMine-Nav is a comprehensive dataset collected from open-pit mining areas, designed for autonomous vehicle localization and navigation tasks. The collection platforms include one SUV, one wide-body truck and one mining truck. The SUV data includes synchronized data from multiple sensors:
 
 - Ouster OS1-64 LiDAR
 - Stereo Cameras (Left & Right)
@@ -35,6 +35,8 @@ Extraction Code: `7tju`
 SUV_01 2K data can be download via:
 [Download Link](https://pan.baidu.com/s/1vrKBsuKGj-v3_toB8TGDAw?pwd=7tju)  
 Extraction Code: `7tju`
+
+We will upload all the data soon!
 
 @article{Li2024AutoMine,
   title={AutoMine: A Multimodal Dataset for Robot Navigation in Open-pit Mines},
