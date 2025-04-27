@@ -36,6 +36,10 @@ SUV_01 2K data can be download via:
 [Download Link](https://pan.baidu.com/s/1rvg8PIkjIiYyySfe0dGbKw?pwd=sk2y)  
 Extraction Code: `sk2y`
 
+SUV_01 3K data can be download via:
+[Download Link](https://pan.baidu.com/s/1hlGeCdISAAkqN5R5pZpvSw?pwd=biqr) 
+Extraction Code: `biqr`
+
 We will upload all the data soon!
 
 @article{Li2024AutoMine,
