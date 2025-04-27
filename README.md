@@ -28,15 +28,15 @@ ROS_Left_Right.txt
 
 The dataset is available via Baidu Cloud.
 For SUV, four individual data flows are released. And each one is divided into 1K, 2K, and 3K frames.
-SUV_01 1K data can be download via:
+SUV_01 1K data can be downloaded via:
 [Download Link](https://pan.baidu.com/s/1vrKBsuKGj-v3_toB8TGDAw?pwd=7tju)  
 Extraction Code: `7tju`
 
-SUV_01 2K data can be download via:
+SUV_01 2K data can be downloaded via:
 [Download Link](https://pan.baidu.com/s/1rvg8PIkjIiYyySfe0dGbKw?pwd=sk2y)  
 Extraction Code: `sk2y`
 
-SUV_01 3K data can be download via:
+SUV_01 3K data can be downloaded via (There is frame loss):
 [Download Link](https://pan.baidu.com/s/1hlGeCdISAAkqN5R5pZpvSw?pwd=biqr) 
 Extraction Code: `biqr`
 
